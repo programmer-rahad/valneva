@@ -1,0 +1,208 @@
+/* New Styles */
+#banner .language {
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+    font-weight: 500;
+}
+#banner .language a {
+    color: #31B5E7;
+}
+
+#banner .banner-card {
+    height: auto;
+}
+
+#banner .arrow-bottom {
+    position: relative;
+    bottom: 8px;
+}
+
+@media(min-width: 1200px) {
+    .arrow-bottom {
+        bottom: 5px;
+    }
+}
+
+@media(min-width: 601px) {
+    .arrow-bottom {}
+
+    .banner-card-description {
+        padding-bottom: 15px !important;
+    }
+}
+
+@media(min-width: 1200px) {
+    .banner-card-description {
+        padding-bottom: 15px !important;
+    }
+}
+
+@media(max-width: 600px) {
+    .banner-card-description {
+        padding-bottom: 15px !important;
+    }
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+    height: 185px;
+    background-color: transparent;
+    width: 185px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.flip-box img {
+    margin-bottom: 0;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box.active .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+    height: 100%;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+    color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+    background-color: #0B4A7E;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-box-back h4 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+@media(max-width: 1199.98px) {
+    .flip-box {
+        height: 175px;
+        background-color: transparent;
+        width: 175px;
+    }
+}
+
+@media(max-width: 767.98px) {
+
+    .mask-wrapper {
+        width: 395px;
+    }
+
+    .flip-box {
+        height: 190px;
+        max-width: none !important;
+        width: 190px;
+        margin-bottom: 14px;
+    }
+}
+
+#how-to-wash-hand .hand-wasing-tips {
+    background: #0B4A7E;
+    width: 420px;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#how-to-wash-hand .hand-wasing-tips h2 {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: .95;
+    margin-bottom: 0;
+}
+
+@media(max-width: 479.98px) {
+    #how-to-wash-hand .hand-wasing-tips {
+        width: 100%;
+    }
+
+    #how-to-wash-hand .hand-wasing-tips h2 {
+        font-size: 24px;
+    }
+
+    #how-to-wash-hand .hand-wasing-tips h2 span:last-child {
+        font-size: 18px;
+    }
+}
+
+#how-to-wash-hand .hand-wasing-tips h2 span:last-child {
+    font-size: 21px;
+    font-weight: 700;
+    display: block;
+    text-transform: none;
+    margin-top: 3px;
+}
+
+.ms-title {
+    margin-top: 80px;
+    background: #0B4A7E;
+    width: 420px;
+    border-radius: 12px;
+    padding-top: 10px;
+    text-align: center;
+    width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1px;
+}
+@media(max-width: 383.98px) {
+    .ms-title {
+        width: 100%;
+    }
+}
+.ms-title h2 {
+    color: #fff;
+}
+.ms-title + p {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #0B4A7E;
+}
+
+.footer-bottom {
+    margin-bottom: 40px;
+}
+
+.footer-bottom .code {
+    color: #707070;
+    font-size: 10px;
+}
+
+@media(min-width: 1200px) {
+    .footer-bottom .code {
+        margin-left: -200px;
+    }
+}
+
+.footer-bottom>div:last-child img {
+    width: 95px;
+}

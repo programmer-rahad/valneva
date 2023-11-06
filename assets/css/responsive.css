@@ -1,0 +1,454 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #banner {
+    background-image: url("../images/mobile-banner.png");
+  }
+
+  .banner-heading {
+    font-size: 32px;
+    margin-top: 55px;
+    margin-bottom: 33px;
+  }
+  .banner-card {
+    max-width: 100%;
+    height: 128px;
+    margin-bottom: 40px;
+  }
+  .banner-card-description {
+    padding: 24px 15px 34px 23px;
+    color: #fff;
+    font-size: 16px;
+  }
+  .arrow-bottom {
+    bottom: 10px;
+  }
+  .things-to-check-title {
+    font-size: 22px;
+  }
+  .bullet-item {
+    font-size: 14px;
+  }
+  #things-to-check {
+    margin-bottom: 68px;
+  }
+  .things-to-bring-title {
+    margin-top: 34px;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  .box-wrapper {
+  }
+  .box-description {
+    font-size: 13px;
+  }
+  .box-description {
+    margin-top: 12px;
+    padding: 0 10px;
+  }
+  .box-fr-desc {
+    font-size: 12px;
+    margin-top: 4px;
+    padding: 0 6px;
+  }
+  #how-to-put-mask {
+    display: none;
+  }
+  .mb-mask-btn {
+    padding-top: 38px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .mb-mask-btn {
+    display: flex;
+  }
+  .mb-mask-btn button {
+    font-family: "Gotham", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background: none;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    padding: 14px 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+  .mb-mask-btn.text-center img {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  #things-to-remember {
+    padding-top: 34px;
+  }
+  .things-to-remember-title,
+  .resources-and-links-title {
+    font-size: 22px;
+  }
+  .resources-and-links-title {
+    padding-top: 34px;
+    padding-bottom: 28px;
+  }
+  .privacy-policy-description a,
+  .terms-of-use-description a {
+    font-size: 13px;
+  }
+  .wash-hand-btn button {
+    border: 3px solid #0b4a7e;
+    color: #0b4a7e;
+  }
+  .wash-hand-btn {
+    padding-bottom: 46px;
+  }
+  #how-to-wash-hand {
+    display: none;
+  }
+  .bullet-item a {
+    font-size: 14px;
+  }
+  .sponsor-title {
+    font-size: 22px;
+    margin: 0;
+  }
+  .mb-pt {
+    padding: 0 15px !important;
+    margin-top: 26px;
+  }
+  .mb-contact {
+    display: block;
+    font-size: 10px;
+    padding-top: 20px;
+    font-family: "Gotham", sans-serif;
+    font-weight: normal;
+    color: #707070;
+    padding-bottom: 28px;
+  }
+  .mb-mask-btn button:hover,
+  .mb-mask-btn button:active {
+    color: #0b4a7e !important;
+    background-color: #fff !important;
+    border: 3px solid #fff;
+    border-color: #fff !important;
+    box-shadow: none;
+  }
+  .mb-mask-btn button:focus {
+    box-shadow: none !important;
+  }
+  h2.text-left.how-to-wash-hand-title {
+    font-size: 22px;
+    padding-top: 0;
+  }
+  h3.text-left.how-to-wash-hand-subtitle {
+    font-size: 16px;
+    padding-bottom: 22px;
+  }
+  .modal-header {
+    padding: 0;
+    border: none;
+  }
+  .modal-footer {
+    padding: 0;
+    border: none;
+  }
+  .wash-hand-box img {
+    margin-bottom: 10px;
+  }
+  .wash-hand-box-description {
+    font-size: 14px;
+  }
+  .mb-wash-hand-btn button {
+    width: 100%;
+  }
+  .mask-box-description {
+    font-size: 14px;
+  }
+  .privacy-policy-title {
+    font-size: 28px;
+    padding-top: 40px;
+  }
+  .privacy-policy-description {
+    font-size: 13px;
+  }
+  .date {
+    font-size: 11px;
+    padding-bottom: 40px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .wash-box-bottom .wash-hand-box {
+    margin-right: 5px;
+  }
+  .bullet-item a {
+    font-size: 14px;
+  }
+  .sponsor-title {
+    margin: 0;
+    font-size: 22px;
+  }
+  .mb-pt {
+    text-align: center !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .box-description {
+    margin-top: 12px;
+    padding: 0 8px;
+  }
+  .box-wrapper {
+    /* width: 152px; */
+    /* height: 152px; */
+    /* margin-bottom: 10px; */
+  }
+  .mask-wrapper {
+    width: 735px;
+  }
+  .how-to-wash-hand-wrapper {
+    width: 750px;
+  }
+  .wash-box-bottom .wash-hand-box {
+    margin-right: 20px;
+  }
+  .sponsor-title {
+    margin: 0 6rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* Banner Area  */
+  #logo {
+    width: 100%;
+    height: auto;
+    padding-top: 32px;
+  }
+  #banner {
+    background-image: url("../images/banner.png");
+    background-size: 100% 100%;
+    height: auto;
+    background-repeat: no-repeat;
+  }
+  .banner-heading {
+    margin-top: 67px;
+    margin-bottom: 36px;
+    color: #0b4a7e;
+  }
+  .banner-card {
+    background-color: rgb(11, 74, 126, 0.9);
+    width: 450px;
+    height: 152px;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    margin-bottom: 96px;
+    position: relative;
+  }
+  .banner-card-description {
+    padding: 24px 15px 34px 37px;
+    color: #fff;
+  }
+  .arrow-bottom {
+    position: absolute;
+    left: 50%;
+    bottom: 21px;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Things to check Area  */
+  #things-to-check {
+    margin-bottom: 60px;
+    margin-top: 32px;
+  }
+  .things-to-check-title {
+    margin-bottom: 23px;
+    color: #0b4a7e;
+  }
+  .bullet-point img {
+    float: left;
+    margin-right: 8px;
+  }
+
+  /* Things to bring Area  */
+  #things-to-bring {
+    background-color: #0b4a7e;
+    padding-bottom: 50px;
+  }
+  .things-to-bring-title {
+    margin-top: 38px;
+    margin-bottom: 19px;
+    color: #fff;
+  }
+  .box-wrapper {
+    /* width: 100%; */
+    /* height: 168px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* display: flex; */
+    /* background: #fff; */
+    /* flex-direction: column; */
+    /* margin-bottom: 16px; */
+  }
+  .box-description {
+    margin-top: 8px;
+    padding: 0 8px;
+  }
+  .box-fr-desc {
+    font-size: 13px;
+  }
+  /* How to put mask Area  */
+  #how-to-put-mask {
+    padding-bottom: 78px;
+  }
+  .how-to-put-mask-title {
+    color: #0b4a7e;
+    margin-top: 48px;
+    margin-bottom: 9px;
+  }
+  .mask-wrapper {
+    width: 790px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .how-to-put-mask-box-wrapper {
+    max-width: 185px;
+  }
+  .how-to-put-mask-box-wrapper img {
+    margin-bottom: 16px;
+  }
+
+  /* Things to Remember Area  */
+  #things-to-remember {
+    background-color: #f3f2f2;
+    padding-top: 22px;
+    padding-bottom: 49px;
+  }
+  .things-to-remember-title {
+    margin-bottom: 20px;
+    color: #0b4a7e;
+  }
+
+  /* How to wash your hand Area  */
+  #how-to-wash-hand {
+    padding-bottom: 70px;
+  }
+  .how-to-wash-hand-title {
+    padding-top: 49px;
+  }
+  .how-to-wash-hand-subtitle {
+    color: #3676bc;
+    font-weight: bold;
+    padding-bottom: 13px;
+  }
+  .how-to-wash-hand-wrapper {
+    width: 785px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wash-hand-box {
+    max-width: 176px;
+  }
+
+  .wash-hand-box img {
+    margin-bottom: 16px;
+  }
+
+  .two-col-wrapper {
+    display: flex;
+  }
+  .two-col-wrapper img {
+    margin-right: 8px;
+  }
+  .two-col {
+    max-width: 360px !important;
+  }
+  .two-col .wash-hand-box-description {
+    width: 360px;
+  }
+  .wash-box-bottom {
+    width: 785px;
+    justify-content: flex-start;
+  }
+
+  .wash-box-bottom .wash-hand-box {
+    margin-right: 36px;
+  }
+
+  /* Resources and Links Area */
+  #resources-and-links {
+  }
+  .resources-and-links-title {
+    padding-top: 42px;
+    padding-bottom: 27px;
+  }
+  .links a {
+    text-decoration: underline;
+    font-size: 16px;
+  }
+  .links-bottom-description {
+    font-size: 10px;
+    font-weight: normal;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    color: #707070;
+  }
+  .links-bottom-description a {
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+
+  /* Sponsor Area  */
+  #sponsor {
+    padding-top: 26px;
+    background: #0b4a7e;
+  }
+  .sponsor-title {
+    color: #fff;
+    text-transform: none;
+    font-family: "Gotham", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 28px;
+    margin: 0 9rem;
+  }
+
+  /* Footer Area  */
+  #footer {
+    padding-top: 36px;
+  }
+  .footer-links {
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .contact {
+    font-size: 10px; 
+    font-family: "Gotham", sans-serif;
+    font-weight: normal;
+    color: #707070; 
+    display: block !important;
+  }
+  .mb-contact {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .cookies-text {
+    padding-right: 0px;
+  }
+
+  .cookies-text .btns {
+    position: relative;
+    padding-top: 10px;
+  }
+}

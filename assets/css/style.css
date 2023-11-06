@@ -1,0 +1,552 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("../webfonts/Gotham-Book.eot");
+  src: local("Gotham-Book"),
+    url("../webfonts/Gotham-Book.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/Gotham-Book.woff2") format("woff2"),
+    url("../webfonts/Gotham-Book.woff") format("woff"),
+    url("../webfonts/Gotham-Book.ttf") format("truetype"),
+    url("../webfonts/Gotham-Book.svg#Gotham-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../webfonts/Gotham-BookItalic.eot");
+  src: local("Gotham-BookItalic"),
+    url("../webfonts/Gotham-BookItalic.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/Gotham-BookItalic.woff2") format("woff2"),
+    url("../webfonts/Gotham-BookItalic.woff") format("woff"),
+    url("../webfonts/Gotham-BookItalic.ttf") format("truetype"),
+    url("../webfonts/Gotham-BookItalic.svg#Gotham-BookItalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../webfonts/Gotham-Bold.eot");
+  src: local("Gotham-Bold"),
+    url("../webfonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/Gotham-Bold.woff2") format("woff2"),
+    url("../webfonts/Gotham-Bold.woff") format("woff"),
+    url("../webfonts/Gotham-Bold.ttf") format("truetype"),
+    url("../webfonts/Gotham-Bold.svg#Gotham-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../webfonts/Gotham-BoldItalic.eot");
+  src: local("Gotham-BoldItalic"),
+    url("../webfonts/Gotham-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/Gotham-BoldItalic.woff2") format("woff2"),
+    url("../webfonts/Gotham-BoldItalic.woff") format("woff"),
+    url("../webfonts/Gotham-BoldItalic.ttf") format("truetype"),
+    url("../webfonts/Gotham-BoldItalic.svg#Gotham-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../webfonts/Gotham-Medium.eot");
+  src: local("Gotham-Medium"),
+    url("../webfonts/Gotham-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/Gotham-Medium.woff2") format("woff2"),
+    url("../webfonts/Gotham-Medium.woff") format("woff"),
+    url("../webfonts/Gotham-Medium.ttf") format("truetype"),
+    url("../webfonts/Gotham-Medium.svg#Gotham-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../webfonts/Gotham-Black.eot");
+  src: local("Gotham-Black"),
+    url("../webfonts/Gotham-Black.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/Gotham-Black.woff2") format("woff2"),
+    url("../webfonts/Gotham-Black.woff") format("woff"),
+    url("../webfonts/Gotham-Black.ttf") format("truetype"),
+    url("../webfonts/Gotham-Black.svg#Gotham-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gotham", sans-serif;
+  font-weight: normal;
+  color: #333f48;
+  line-height: 1.5;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+button:focus {
+  outline: 0 solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.4;
+  font-family: "Gotham", sans-serif;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 900;
+  color: #0b4a7e;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h5 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+h6 {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  color: #3676bc;
+  font-size: 16px;
+}
+
+hr {
+  height: 1px;
+  width: 100%;
+  background: #3676bc;
+  padding: 0;
+  margin: 0;
+}
+
+strong {
+  color: #3676bc;
+  text-decoration: underline;
+}
+
+.mb-mask-btn {
+  display: none;
+}
+
+/* Banner Area  */
+#logo {
+  width: 100%;
+  height: auto;
+  padding-top: 32px;
+}
+
+#banner {
+  background-image: url("../images/banner.png");
+  background-size: cover;
+  background-position: right center;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.banner-heading {
+  margin-top: 67px;
+  margin-bottom: 36px;
+  color: #0b4a7e;
+  line-height: 1.15;
+}
+
+.banner-card {
+  background-color: rgb(11, 74, 126, 0.9);
+  width: 450px;
+  height: 152px;
+  border-top-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  margin-bottom: 96px;
+  position: relative;
+}
+
+.banner-card-description {
+  padding: 24px 15px 34px 37px;
+  color: #fff;
+}
+
+.arrow-bottom {
+  position: absolute;
+  left: 50%;
+  bottom: 21px;
+  transform: translate(-50%, -50%);
+}
+
+/* Things to check Area  */
+#things-to-check {
+  margin-bottom: 60px;
+  margin-top: 32px;
+}
+
+.things-to-check-title {
+  margin-bottom: 23px;
+  color: #0b4a7e;
+}
+
+.bullet-point {
+  padding-left: 35px;
+  position: relative;
+  min-height: 40px;
+}
+
+.bullet-point img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Things to bring Area  */
+#things-to-bring {
+  background-color: #0b4a7e;
+  padding-bottom: 50px;
+}
+
+.things-to-bring-title {
+  margin-top: 38px;
+  margin-bottom: 19px;
+  color: #fff;
+}
+
+.box-wrapper {
+  width: 100%;
+  min-height: calc(100% - 15px);
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  background: #fff;
+  flex-direction: column;
+  margin-bottom: 15px;
+  padding: 20px 0px;
+}
+
+.box-description {
+  margin-top: 18px;
+  padding: 0 12px;
+}
+
+/* How to put mask Area  */
+#how-to-put-mask {
+  padding-bottom: 78px;
+}
+
+.how-to-put-mask-title {
+  color: #0b4a7e;
+  margin-top: 48px;
+  margin-bottom: 9px;
+}
+
+.mask-wrapper {
+  width: 785px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-to-put-mask-box-wrapper {
+  max-width: 176px;
+}
+
+.how-to-put-mask-box-wrapper img {
+  margin-bottom: 16px;
+}
+
+/* Things to Remember Area  */
+#things-to-remember {
+  background-color: #f3f2f2;
+  padding-top: 22px;
+  padding-bottom: 49px;
+}
+
+.things-to-remember-title {
+  margin-bottom: 20px;
+  color: #0b4a7e;
+}
+
+/* How to wash your hand Area  */
+#how-to-wash-hand {
+  padding-bottom: 70px;
+}
+
+.how-to-wash-hand-title {
+  padding-top: 49px;
+}
+
+.how-to-wash-hand-subtitle {
+  color: #3676bc;
+  font-weight: bold;
+  padding-bottom: 13px;
+}
+
+.how-to-wash-hand-wrapper {
+  width: 785px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wash-hand-box {
+  max-width: 176px;
+}
+
+.wash-hand-box img {
+  margin-bottom: 16px;
+}
+
+.two-col-wrapper {
+  display: flex;
+}
+
+.two-col-wrapper img {
+  margin-right: 8px;
+}
+
+.two-col {
+  max-width: 360px !important;
+}
+
+.two-col .wash-hand-box-description {
+  width: 360px;
+}
+
+.wash-box-bottom {
+  width: 785px;
+  justify-content: flex-start;
+}
+
+.wash-box-bottom .wash-hand-box {
+  margin-right: 36px;
+}
+
+.resources-and-links-title {
+  padding-top: 42px;
+  padding-bottom: 27px;
+}
+
+.links a {
+  text-decoration: underline;
+}
+
+.links-bottom-description {
+  font-size: 10px;
+  padding-top: 24px;
+  font-family: "Gotham", sans-serif;
+  font-weight: normal;
+  padding-bottom: 20px;
+  color: #707070;
+}
+
+.links-bottom-description a {
+  font-size: 10px;
+  text-decoration: underline;
+}
+
+/* Sponsor Area  */
+#sponsor {
+  padding-top: 26px;
+  background: #0b4a7e;
+}
+
+.sponsor-title {
+  color: #fff;
+  text-transform: none;
+  font-family: "Gotham", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 20px;
+  margin: 0 9rem;
+}
+
+/* Footer Area  */
+#footer {
+  padding-top: 36px;
+}
+
+.footer-links {
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact {
+  font-size: 10px;
+  font-family: "Gotham", sans-serif;
+  font-weight: normal;
+  color: #707070; 
+  display: block !important;
+}
+
+.mb-contact {
+  display: none;
+}
+
+/* privacy policy  */
+
+.privacy-policy-description {
+  color: #585858;
+  line-height: 1.6;
+}
+
+.privacy-policy-title {
+  font-size: 40px;
+  padding-top: 65px;
+  color: #0b4a7e;
+}
+
+.date {
+  font-size: 13px;
+  padding-bottom: 53px;
+}
+
+.privacy-policy-description a {
+  font-weight: normal !important;
+  text-decoration: underline !important;
+}
+
+#resources-and-links .bullet-point img {
+  top: 5px;
+}
+
+#resources-and-links .bullet-point {
+  padding-left: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.links-bottom-description {
+  z-index: 999;
+}
+
+.resources-and-links-bottom {
+  display: block;
+  z-index: 99;
+}
+
+.links-bottom-description span {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Style  */
+
+@media (min-width: 992px) {
+  #things-to-bring .col-lg-2 {
+    -ms-flex: 0 0 14.23%;
+    flex: 0 0 14.23%;
+    max-width: 14.23%;
+  }
+
+  #things-to-remember .col-lg-2 {
+    -ms-flex: 0 0 14.23%;
+    flex: 0 0 14.23%;
+    max-width: 14.23%;
+  }
+}
+
+.box-wrapper h5 {
+  color: #333f48;
+  margin-top: 15px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.box-wrapper.smaller h5 {
+  font-size: 13px;
+}
+
+#resources-and-links a {
+  font-weight: bold;
+}
+
+
+.cookies-text {
+  font-size: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.cookies-text a {
+  font-size: 10px;
+}
+
+.cookies-text .btns .blue-btn {
+  background-color: #3676BC;
+  color: #fff;
+  padding: 2px 5px;
+  display: inline-block;
+  font-weight: bold;
+  font-family: "Gotham", sans-serif;
+}
+
+.cookies-text {
+  position: relative;
+  padding-right: 220px;
+}
+
+.cookies-text .btns {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.privacy-policy-description strong {
+  color: #585858;
+  text-decoration: none;
+}
+
+.privacy-policy-description strong.blue {
+  color: #3676BC;
+  text-decoration: none;
+}
+
+.privacy-policy-description {
+  padding-bottom: 15px;
+}
